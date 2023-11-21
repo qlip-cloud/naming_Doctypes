@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include naming_doctypes *.css
+recursive-include naming_doctypes *.csv
+recursive-include naming_doctypes *.html
+recursive-include naming_doctypes *.ico
+recursive-include naming_doctypes *.js
+recursive-include naming_doctypes *.json
+recursive-include naming_doctypes *.md
+recursive-include naming_doctypes *.png
+recursive-include naming_doctypes *.py
+recursive-include naming_doctypes *.svg
+recursive-include naming_doctypes *.txt
+recursive-exclude naming_doctypes *.pyc
